@@ -1,0 +1,17 @@
+						MileStone 1
+
+Dwight Hall
+Cameron Shively
+Mike Tjoelker
+Matthew Morrison
+
+Last Modified: 9/28/16
+
+Project Desscription: Next-Bus App
+
+The project that we are proposing is a web based "possibly moible" app. That would help the user find the nearest
+bus stop, the time a bus should arive, given your location and route what bus to take, what buses to transfer to
+and from, where your bus should be at the moment, and other bus related searches. The app would be local to the
+Humboldt area, but could expand to other areas in the future.
+
+
