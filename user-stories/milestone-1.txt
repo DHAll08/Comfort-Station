@@ -1,0 +1,16 @@
+Matthew Morrison
+Dwight Hall
+Cameron Shively
+Michael Tjoelker
+
+User Stories:
+
+As a frequent bus rider, I want to more easily be able to determine what the most convenient bus route would be.
+
+As a bus rider who constantly has to make transfers, I would like to be able to pull up a clear representation of
+all the transfers I would have to make, to better plan my days.
+
+As a Humboldt visitor, I would like to easily find out when and where the bus to my hotel will be.
+
+As a Redwood Transit Authority Administrator, I would like to have a digital way for bus riders to determine their
+preferred routes, so that I can stop spending money and resources on printing physical bus route maps.
