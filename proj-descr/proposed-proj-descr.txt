@@ -5,13 +5,29 @@ Cameron Shively
 Mike Tjoelker
 Matthew Morrison
 
-Last Modified: 9/28/16
+Last Modified: 10/5/2016
 
-Project Desscription: Next-Bus App
+Project Desscription: Campus Bathroom Rating [Mobile or Web] App
 
-The project that we are proposing is a web based "possibly moible" app. That would help the user find the nearest
-bus stop, the time a bus should arive, given your location and route what bus to take, what buses to transfer to
-and from, where your bus should be at the moment, and other bus related searches. The app would be local to the
-Humboldt area, but could expand to other areas in the future.
-
-
+An application to keep track of info and ratings for bathrooms - specifically
+on campus, but could be expanded to include other places as well in the future.
+Desired features are:
+	- Location
+	- Whether the bathroom is gender neutral, Men's, or Women's
+	- Handicap Accessibility
+	- Cleanliness rating
+	- Maintenence rating
+	- Overall bathroom rating
+Extra features:
+	- When does the bathroom open/close?
+	- Is there a changing table?
+	- Dispensers
+	- Showers
+	- Sinks in stall(s)
+	- Mirrors
+	- Urinal partitians
+	- Changing Rooms
+	- Lockers
+	- Comment section
+	- Next nearest bathroom
+	- Paper towels and/or dryers
