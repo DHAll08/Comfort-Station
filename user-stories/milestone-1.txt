@@ -3,14 +3,62 @@ Dwight Hall
 Cameron Shively
 Michael Tjoelker
 
-User Stories:
+****************
+* User Stories *
+****************
 
-As a frequent bus rider, I want to more easily be able to determine what the most convenient bus route would be.
+Location: 2 hrs 
+	As an HSU student, I want to know where bathrooms are.
 
-As a bus rider who constantly has to make transfers, I would like to be able to pull up a clear representation of
-all the transfers I would have to make, to better plan my days.
+Overall: 4 hrs
+	As someone who gets straight to the point, I want to easily be able to look up
+	a bathroom's overall rating.
 
-As a Humboldt visitor, I would like to easily find out when and where the bus to my hotel will be.
+Rate online: 4 hrs
+	As a web & bathroom user, I want to be able to rate public restrooms online.
 
-As a Redwood Transit Authority Administrator, I would like to have a digital way for bus riders to determine their
-preferred routes, so that I can stop spending money and resources on printing physical bus route maps.
+Gender-Neutral: 2 hrs
+	As a person worried about my safety, I want to know where single room 
+	gender-neutral bathrooms are.
+
+Handicap Access: 2 hrs
+	As a person with a physical disability, I would like to know if a restroom 
+	is accessible for me.
+
+Cleanliness: 2 hrs
+	As an average human, I want to know whether a public restroom is known
+	to be clean or not, so that I can use a different restroom if it's not.
+
+Maintenence: 2 hrs
+	As someone who needs to use the restroom, I want to know whether
+	a public bathroom is known to be maintained properly.
+
+Nearest: 3 hrs
+	As someone who really has to go, I want to know where the nearest bathroom is.
+
+Next: 3 hrs
+	As someone who isn't happy with the current bathroom, I want to know where the next one is.
+
+Open/Close: 2 hrs
+	As a student at HSU, I want to know when bathrooms open/close on campus.
+
+Urinal Partitians: 2 hrs
+	As a shy guy, I want to know whether or not there are urinal partitians.
+
+Showers: 2 hrs
+	As a basketball player, I want to know whether or not a bathroom has showers.
+
+Changing Table: 2 hrs
+	As a parent, I'd like to know if there is a changing table in the restroom.
+
+Lockers: 2 hrs
+	As a gym user, I want to know whether or not a bathroom has lockers.
+
+Changing Rooms: 2 hrs
+	As a swimmer, I want to know whether or not a bathroom changing rooms.
+
+Mirrors: 2 hrs
+	As someone who wears makeup, I want to know if there are mirrors in a public restroom.
+
+Hand Dryers: 2 hrs
+	As a tree lover, I want to know if a restroom only has hand dryers or if they have paper towels.
