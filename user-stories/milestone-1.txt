@@ -7,58 +7,98 @@ Michael Tjoelker
 * User Stories *
 ****************
 
-Location: 2 hrs 
+ON BATHROOMS
+-------------
+
+Bathroom Location: 2 hrs 
 	As an HSU student, I want to know where bathrooms are.
 
-Overall: 4 hrs
+Bathroom Overall: 4 hrs
 	As someone who gets straight to the point, I want to easily be able to look up
 	a bathroom's overall rating.
 
-Rate online: 4 hrs
+Bathroom Rate online: 4 hrs
 	As a web & bathroom user, I want to be able to rate public restrooms online.
 
-Gender-Neutral: 2 hrs
+Bathroom Gender-Neutral: 2 hrs
 	As a person worried about my safety, I want to know where single room 
 	gender-neutral bathrooms are.
 
-Handicap Access: 2 hrs
+Bathroom Handicap Access: 2 hrs
 	As a person with a physical disability, I would like to know if a restroom 
 	is accessible for me.
 
-Cleanliness: 2 hrs
+Bathroom Cleanliness: 2 hrs
 	As an average human, I want to know whether a public restroom is known
 	to be clean or not, so that I can use a different restroom if it's not.
 
-Maintenence: 2 hrs
+Bathroom Maintenence: 2 hrs
 	As someone who needs to use the restroom, I want to know whether
 	a public bathroom is known to be maintained properly.
 
-Nearest: 3 hrs
+Bathroom Nearest: 3 hrs
 	As someone who really has to go, I want to know where the nearest bathroom is.
 
-Next: 3 hrs
+Bathroom Next: 3 hrs
 	As someone who isn't happy with the current bathroom, I want to know where the next one is.
 
-Open/Close: 2 hrs
+Bathroom Open/Close: 2 hrs
 	As a student at HSU, I want to know when bathrooms open/close on campus.
 
-Urinal Partitians: 2 hrs
+Bathroom Urinal Partitians: 2 hrs
 	As a shy guy, I want to know whether or not there are urinal partitians.
 
-Showers: 2 hrs
+Bathroom Showers: 2 hrs
 	As a basketball player, I want to know whether or not a bathroom has showers.
 
-Changing Table: 2 hrs
+Bathroom Changing Table: 2 hrs
 	As a parent, I'd like to know if there is a changing table in the restroom.
 
-Lockers: 2 hrs
+Bathroom Lockers: 2 hrs
 	As a gym user, I want to know whether or not a bathroom has lockers.
 
-Changing Rooms: 2 hrs
+Bathroom Changing Rooms: 2 hrs
 	As a swimmer, I want to know whether or not a bathroom changing rooms.
 
-Mirrors: 2 hrs
+Bathroom Mirrors: 2 hrs
 	As someone who wears makeup, I want to know if there are mirrors in a public restroom.
 
-Hand Dryers: 2 hrs
+Bathroom Hand Dryers: 2 hrs
 	As a tree lover, I want to know if a restroom only has hand dryers or if they have paper towels.
+
+
+
+
+ON WI-FI ACCESS
+----------------
+Wifi Access: 2 hrs 
+	As a smartphone owner, I want to know where wi-fi access is so that I don't have to use my data plan.
+	
+
+ON COMPUTER ACCESS
+-------------------
+Comp Access: 2 hrs 
+	As an HSU student, I want to know where I can use computers so that I can get my assignment done.
+	
+Comp Numbers: 2 hrs 
+	As an student in a group project, I want to know how many computers are available in a given room, so that my entire group can have computer access.
+	
+
+ON CHARGING STATIONS
+---------------------
+Charg Location: 2 hrs 
+	As an HSU student, I want to know where there is a charging station so that I can charge my phone.
+
+
+ON INTERFACE
+-------------
+Minimal: 2 hrs
+	As a simple person, I want a minimilistic application so that I can easily find what I'm looking for.
+
+Modern: 2 hrs
+	As a person who keep up on pop culture, I want an interface that looks modern.
+
+Reliable: 2 hrs
+	As a student who wants to know where important campus features are, I want an application that can be reliable, so that I can find a bathroom/computer-lab/charging-station/wifi when I need to.
+
+
