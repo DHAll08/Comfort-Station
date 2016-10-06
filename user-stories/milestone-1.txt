@@ -3,6 +3,8 @@ Dwight Hall
 Cameron Shively
 Michael Tjoelker
 
+Last Modified: Oct 6 2016
+
 ****************
 * User Stories *
 ****************
