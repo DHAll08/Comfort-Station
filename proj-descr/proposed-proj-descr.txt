@@ -5,29 +5,40 @@ Cameron Shively
 Mike Tjoelker
 Matthew Morrison
 
-Last Modified: 10/5/2016
+Last Modified: 10/6/2016
 
-Project Desscription: Campus Bathroom Rating [Mobile or Web] App
+Project Desscription: Campus Utility Finder/Rater App 
 
-An application to keep track of info and ratings for bathrooms - specifically
+An application to keep track of locations/ratings for bathrooms, wifi access, charging stations, and computer labs - specifically
 on campus, but could be expanded to include other places as well in the future.
 Desired features are:
-	- Location
-	- Whether the bathroom is gender neutral, Men's, or Women's
-	- Handicap Accessibility
-	- Cleanliness rating
-	- Maintenence rating
-	- Overall bathroom rating
+	* BATHROOMS *
+		- Room Location
+		- Whether the bathroom is gender neutral, Men's, or Women's
+		- Handicap Accessibility
+		- Cleanliness rating
+		- Maintenence rating
+		- Overall bathroom rating
+	* WIFI *
+		- Building Location
+	* CHARGING STATIONS *
+		- Floor Location
+	* COMPUTER ACCESS *
+		- Room Location
+		- Number of Computers
+	
 Extra features:
-	- When does the bathroom open/close?
-	- Is there a changing table?
-	- Dispensers
-	- Showers
-	- Sinks in stall(s)
-	- Mirrors
-	- Urinal partitians
-	- Changing Rooms
-	- Lockers
-	- Comment section
-	- Next nearest bathroom
-	- Paper towels and/or dryers
+	* BATHROOMS *
+		- When does the bathroom open/close?
+		- Is there a changing table?
+		- Dispensers
+		- Showers
+		- Sinks in stall(s)
+		- Mirrors
+		- Urinal partitians
+		- Changing Rooms
+		- Lockers
+		- Comment section
+		- Next nearest bathroom
+		- Paper towels and/or dryers
+	
