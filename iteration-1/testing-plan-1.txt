@@ -1,2 +1,10 @@
-testing plan
+Simple Menu:
+  - Main menu buttons:  Bathrooms, Wi-Fi, Computers, Charging Station 
+  - All buttons should "work" by going to the building selection page and returning which button was selected
 
+Dropdown: 
+  - A building selection page that has a dropdown selection for buildings on campus
+  - If building is selected, should continue to another page saying which building was selected
+
+Map:
+  - Map picture should be available on building selection page to be used for easy reference
