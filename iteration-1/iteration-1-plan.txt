@@ -1,1 +1,14 @@
-plan
+Dwight Hall
+Matthew Morrison
+Cameron Shively
+Michael Tjoelker
+
+Last Modified: Oct 12 2016
+
+User Stories for Iteration 1
+-----------------------------
+Simple Menu
+Map
+Dropdown
+
+Estimated Completion Date: Friday, Nov 4
