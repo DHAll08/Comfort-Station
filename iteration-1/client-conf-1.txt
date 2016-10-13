@@ -1,1 +1,28 @@
-client stuff
+Looks good. 
+
+-Y
+
+Sent from my iPhone
+
+_______________________________________________________________________
+
+Let us know if this looks like a good Iteration 1 plan summary to you!
+Thanks,
+DMCM
+
+
+
+Current Date:   Oct 12
+
+Estimated Completion Date:   Nov 4 (3 weeks from Friday)
+
+User Stories
+-------------------
+Simple Menu: 2 hrs
+	As an average user, I want to have a simple main menu, so that I can easily get to the correct pages for information. 
+
+Map: 2 hrs
+	As a student familiar with the campus layout, I want to be able to see a map with all buildings on it, so that I can select my current location.
+
+Dropdown: 2 hrs
+	As someone who knows the name of my building but not its location on the map, I want to be able to select the building from a dropdown menu.
