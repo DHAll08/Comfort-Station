@@ -13,4 +13,4 @@ that [in Iteration 2] will list all of that amenity located in that building.
 As of now, each new Activity states the data that was chosen in the previous 
 Activity. 
 
-This iteration was completed on 11/1/16.
+This iteration was completed on 10/31/16.
