@@ -13,7 +13,10 @@ ON BATHROOMS
 -------------
 
 Bathroom Location: 2 hrs 
-	As an HSU student, I want to know where bathrooms are.
+	As an HSU student, I want to know where bathrooms are located.
+	
+Bathroom Amenities: 2 hrs
+        As a lady on crutches, I want to find a Women’s bathroom with handicap accessibility.
 
 Bathroom Overall: 4 hrs
 	As someone who gets straight to the point, I want to easily be able to look up
