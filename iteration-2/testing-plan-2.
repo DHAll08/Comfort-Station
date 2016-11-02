@@ -1,0 +1,13 @@
+How to improve testing for this iteration:
+  By actually testing connectivity between database information and the application.
+    - be able to select a building based on database
+    - be able to view amenities based on database
+
+Bathroom Location
+  - After selecting a building, bathrooms should be listed that are in that building
+
+Bathroom Amenities
+  - Upon selecting a bathroom, should be able to see more information on the bathroom.
+     
+Comp Access
+  - After selecting a building, rooms with computer access should be listed.
