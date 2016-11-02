@@ -3,7 +3,9 @@ Testing
 
 Simple Menu:
   [x] Main menu buttons:  Bathrooms, Wi-Fi, Computers, Charging Station 
-  [-] All buttons "work" by going to the building selection page and returning which button was selected
+  [x] All buttons "work" by going to the building selection page and returning which button was selected
+    	-> All buttons for iteration 1 work – Bathroom and Computer Labs on first page, and all available
+         building buttons on second page.
 
 Dropdown: 
   [x] A building selection page that has a dropdown selection for buildings on campus
