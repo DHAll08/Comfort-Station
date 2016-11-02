@@ -1,0 +1,19 @@
+Feedback from Client:
+  [Meeting Date:
+  Attendees:]
+  Feedback: (can be from e-mail stored in client-feedback-1.txt )
+  
+User Stories:
+***********************
+   Client Confirmation should be stored in: "client-conf-2.txt"
+***********************
+   Bathroom Location
+     
+   Bathroom Amenities
+     
+   Comp Access
+   
+   Estimated Completion Date:
+   
+
+
