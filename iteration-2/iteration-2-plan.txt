@@ -1,19 +1,16 @@
-Feedback from Client:
-  [Meeting Date:
-  Attendees:]
-  Feedback: (can be from e-mail stored in client-feedback-1.txt )
-  
 User Stories:
-***********************
-   Client Confirmation should be stored in: "client-conf-2.txt"
-***********************
-   Bathroom Location
+
+   Bathroom Location: 4 hrs*
      
-   Bathroom Amenities
+   Bathroom Amenities: 4 hrs*
      
-   Comp Access
+   Comp Access: 4hrs*
    
-   Estimated Completion Date:
+   Estimated Completion Date: Nov 25
+   
+      * The time is hard to estimate, as we must learn how to rewrite our 
+        database in SQLLite and figure out how to query and acces data,
+        but once we do that, these user stories should not take long to implement.
    
 
 
