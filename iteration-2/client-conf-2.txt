@@ -1,2 +1,4 @@
+Meeting: 12 Nov 2016, 5:00pm
+Attendees: Entire team, and client (Yonaly)
 
- 
+Client has confirmed with us that the user stories and time estimation are appropriate for this iteration. 
