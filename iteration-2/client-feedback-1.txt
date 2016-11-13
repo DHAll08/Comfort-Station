@@ -1,3 +1,10 @@
+Meeting: 12 Nov 2016
+Attendees: Entire team, and client (Yonaly)
 
+Fedback: Yonaly said that what we had so far was "awesome", she liked
+         the simple and straight forward layout, and she liked what our plan
+         was for iteration 2. She suggested for implementing amenities of 
+         bathrooms, to use symbols next to the unique bathroom listings
+         (like a handicap symbol if it's handicap accessible).
  
  
