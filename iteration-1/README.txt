@@ -22,7 +22,7 @@ This iteration was completed on 10/31/16.
 * Folder and Code Location/Information *
 ****************************************
 Folder: 
-	Name - bathroomApplication1
+	Name - bathroomAppIteration1
 	Location - DMCM/iteration-1/bathroomAppIteration1
 Java Code:
 	Location - DMCM/iteration-1/bathroomApppIteration1/app/src/main/java/com/example/dwight/bathroomappv2/...
