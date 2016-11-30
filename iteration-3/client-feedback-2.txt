@@ -1,0 +1,9 @@
+Meeting: 30 Nov 2016, 5pm
+Attendees: Mike and Client
+
+Fedback: The client was pleased with the application. Her suggestions for future improvements:
+ - Clickable map for buildings with bathrooms/comp labs
+ - food/charging stations/wifi - no drop down menu or submit button - just highlight locations on map
+ - Home and Back buttons on each page, especially the last page
+ - show more info about comp labs when clicked, like the bathrooms
+ - name and logo for app
