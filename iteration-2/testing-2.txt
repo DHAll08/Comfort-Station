@@ -1,0 +1,19 @@
+Iteration 2 Testing Results
+----------------------------
+  [X] be able to select a building based on database
+    -> drop down menu populated by database
+  [X] be able to view amenities based on database
+    -> listing on page after is populated by database as well as 
+       function calls on the objects making up the database (Bathroom, CompLab, Floor, Room, Building)
+Bathroom Location
+  [X] After selecting a building, bathrooms should be listed that are in that building
+
+Bathroom Amenities
+  [X] Upon selecting a bathroom, should be able to see more information on the bathroom.
+      -> upon selection, text popups with extra information on the bathroom
+Comp Access
+  [X] After selecting a building, rooms with computer access should be listed.
+
+*************************
+*  ALL TESTS SUCCESSFUL *
+*************************
