@@ -1,0 +1,8 @@
+Improvements on testing:
+  We tried our best to break the application, but were unsuccessful. Throughout this iteration, it broke
+  plenty of time, but upon completion it worked perfectly, no matter what we did.
+
+Testing User Stories:
+[X] On the final amenity listing page, a Home button is available which takes the user back to the first page.
+[X] From the phone's list of applications, our application has it's own unique icon and a catchy name.
+[] Upon opening the application, a splash screen pops up with our logo for a small amount of time.
