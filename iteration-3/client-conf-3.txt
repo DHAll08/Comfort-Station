@@ -2,5 +2,3 @@ Meeting: 27 Nov 2016, 6:00pm
 Attendees: Mike and Client
 
 Client has confirmed with us that the user stories and time estimation are appropriate for this iteration. 
-As stated in the iteration-3-plan, she has suggested her top 4 desired user stories and stated that
-all are of equal importance to her, so she will be satisfied with any 3 (or more) of them being completed.
