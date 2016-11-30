@@ -1,0 +1,138 @@
+Dwight Hall
+Mike Tjoelker
+Cameron Shively
+Matthew Morrison
+
+Last Modified: Nov 30 2016
+
+****************
+* User Stories *
+****************
+
+ON BATHROOMS
+-------------
+
+Bathroom Location: 2 hrs 
+	As an HSU student, I want to know where bathrooms are located.
+	
+Bathroom Amenities: 2 hrs
+        As a lady on crutches, I want to find a Women’s bathroom with handicap accessibility.
+
+Bathroom Overall: 4 hrs
+	As someone who gets straight to the point, I want to easily be able to look up
+	a bathroom's overall rating.
+
+Bathroom Rate online: 4 hrs
+	As a web & bathroom user, I want to be able to rate public restrooms online.
+
+Bathroom Gender-Neutral: 2 hrs
+	As a person worried about my safety, I want to know where single room 
+	gender-neutral bathrooms are.
+
+Bathroom Handicap Access: 2 hrs
+	As a person with a physical disability, I would like to know if a restroom 
+	is accessible for me.
+
+Bathroom Cleanliness: 2 hrs
+	As an average human, I want to know whether a public restroom is known
+	to be clean or not, so that I can use a different restroom if it's not.
+
+Bathroom Maintenence: 2 hrs
+	As someone who needs to use the restroom, I want to know whether
+	a public bathroom is known to be maintained properly.
+
+Bathroom Nearest: 3 hrs
+	As someone who really has to go, I want to know where the nearest bathroom is.
+
+Bathroom Next: 3 hrs
+	As someone who isn't happy with the current bathroom, I want to know where the next one is.
+
+Bathroom Open/Close: 2 hrs
+	As a student at HSU, I want to know when bathrooms open/close on campus.
+
+Bathroom Urinal Partitians: 2 hrs
+	As a shy guy, I want to know whether or not there are urinal partitians.
+
+Bathroom Showers: 2 hrs
+	As a basketball player, I want to know whether or not a bathroom has showers.
+
+Bathroom Changing Table: 2 hrs
+	As a parent, I'd like to know if there is a changing table in the restroom.
+
+Bathroom Lockers: 2 hrs
+	As a gym user, I want to know whether or not a bathroom has lockers.
+
+Bathroom Changing Rooms: 2 hrs
+	As a swimmer, I want to know whether or not a bathroom changing rooms.
+
+Bathroom Mirrors: 2 hrs
+	As someone who wears makeup, I want to know if there are mirrors in a public restroom.
+
+Bathroom Hand Dryers: 2 hrs
+	As a tree lover, I want to know if a restroom only has hand dryers or if they have paper towels.
+
+
+
+
+ON WI-FI ACCESS
+----------------
+Wifi Access: 2 hrs 
+	As a smartphone owner, I want to know where wi-fi access is so that I don't have to use my data plan.
+	
+
+ON COMPUTER ACCESS
+-------------------
+Comp Access: 2 hrs 
+	As an HSU student, I want to know where I can use computers so that I can get my assignment done.
+	
+Comp Numbers: 2 hrs 
+	As an student in a group project, I want to know how many computers are available in a given room, so that my entire group can have computer access.
+	
+
+ON CHARGING STATIONS
+---------------------
+Charg Location: 2 hrs 
+	As an HSU student, I want to know where there is a charging station so that I can charge my phone.
+
+
+ON INTERFACE
+-------------
+Simple Menu: 2 hrs
+	As an average user, I want to have a simple main menu, so that I can easily get to the correct pages for information. 
+
+Map: 2 hrs
+	As a student familiar with the campus layout, I want to be able to see a map with all buildings on it, so that I can select my
+	current location.
+
+Dropdown: 2 hrs
+	As someone who knows the name of my building but not its location on the map, I want to be able to select the building from
+	a dropdown menu.
+
+Minimal: 2 hrs
+	As a simple person, I want a minimilistic application so that I can easily find what I'm looking for.
+
+Modern: 2 hrs
+	As a person who keep up on pop culture, I want an interface that looks modern.
+
+Reliable: 2 hrs
+	As a student who wants to know where important campus features are, I want an application that can be reliable, 
+	so that I can find a bathroom/computer-lab/charging-station/wifi when I need to.
+  
+Map Selection: 3 hrs
+  As a visual person, I want to be able to select the building by selecting it from a map.
+
+Home Button: 1 hr
+  As a busy person, I want to be able to quickly get to the home page of the application after looking up a bathroom, so that
+  I don't have to push the back button a bunch of times.
+
+Launch Icon: 1 hr
+  As a regular mobile user, I want the application to have an easy-to-spot launch icon.
+  
+Splash Screen: 2 hr
+  As the client, I want a catchy splash screen to pop up after opening the application.
+
+
+
+
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
