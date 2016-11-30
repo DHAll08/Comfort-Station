@@ -1,12 +1,7 @@
-Client has agreed that all 4 of these user stories are of equal value to her and she would be fine
-with any 3 (or more) of them being completed.
-
   Home Button: 1 hr
 
   Launch Icon: 1 hr
   
   Splash Screen: 2 hr
-  
-  Map Selection: 3 hrs
 
 Estimated Completion Date: Nov 30
