@@ -3,7 +3,7 @@ Mike Tjoelker
 Cameron Shively
 Matthew Morrison
 
-Last Modified: Nov 30 2016
+Last Modified: Nov 27 2016
 
 ****************
 * User Stories *
@@ -93,6 +93,11 @@ ON CHARGING STATIONS
 ---------------------
 Charg Location: 2 hrs 
 	As an HSU student, I want to know where there is a charging station so that I can charge my phone.
+	
+ON FOOD
+--------
+Food Location: 2 hrs
+	As a hungry student, I want to know where I can go to get food!
 
 
 ON INTERFACE
@@ -131,8 +136,9 @@ Launch Icon: 1 hr
 Splash Screen: 2 hr
   As the client, I want a catchy splash screen to pop up after opening the application.
 
-
-
-
+Name: .5 hr
+  As the client, I want a catchy name for the application.
+  
+  
 Contact GitHub API Training Shop Blog About
 © 2016 GitHub, Inc. Terms Privacy Security Status Help
