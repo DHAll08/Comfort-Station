@@ -1,0 +1,67 @@
+ON BATHROOMS
+-------------
+
+Bathroom Location: 2 hrs 
+	As an HSU student, I want to know where bathrooms are located.
+	
+Bathroom Amenities: 2 hrs
+  As a lady on crutches, I want to find a Women’s bathroom with handicap accessibility.
+
+Bathroom Gender-Neutral: 2 hrs
+	As a person worried about my safety, I want to know where single room 
+	gender-neutral bathrooms are.
+
+Bathroom Nearest: 3 hrs
+	As someone who really has to go, I want to know where the nearest bathroom is.
+
+Bathroom Showers: 2 hrs
+	As a basketball player, I want to know whether or not a bathroom has showers.
+
+Bathroom Changing Table: 2 hrs
+	As a parent, I'd like to know if there is a changing table in the restroom.
+
+Bathroom Lockers: 2 hrs
+	As a gym user, I want to know whether or not a bathroom has lockers.
+
+
+ON COMPUTER ACCESS
+-------------------
+Comp Access: 2 hrs 
+	As an HSU student, I want to know where I can use computers so that I can get my assignment done.
+	
+Comp Numbers: 2 hrs 
+	As a student in a group project, I want to know how many computers are available in a given room, so that my entire group can have computer access.
+
+
+ON INTERFACE
+-------------
+Simple Menu: 2 hrs
+	As an average user, I want to have a simple main menu, so that I can easily get to the correct pages for information. 
+
+Map: 2 hrs
+	As a student familiar with the campus layout, I want to be able to see a map with all buildings on it, so that I can select my current location.
+
+Dropdown: 2 hrs
+	As someone who knows the name of my building but not its location on the map, I want to be able to select the building from a dropdown menu.
+
+Minimal: 2 hrs
+	As a simplistic person, I want a minimal application so that I can easily find what I'm looking for.
+
+Modern: 2 hrs
+	As a person who keeps up on pop culture, I want an interface that looks modern.
+
+Reliable: 2 hrs
+	As a student who wants to know where important campus features are, I want an application that can be reliable, so that I can find a bathroom/computer-lab/charging-station/wifi when I need to.
+  
+*Map Selection: 3 hrs
+  As a visual person, I want to be able to select the building by selecting it from a map.
+	-> for Computer Labs only
+
+Home Button: 1 hr
+  As a busy person, I want to be able to quickly get to the home page of the application after looking up a bathroom, so that I don't have to push the back button a bunch of times.
+
+Launch Icon: 1 hr
+  As a regular mobile user, I want the application to have an easy-to-spot launch icon.
+  
+Name: .5 hr
+  As the client, I want a catchy name for the application.
