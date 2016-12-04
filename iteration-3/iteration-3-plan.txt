@@ -2,6 +2,6 @@
 
   Launch Icon: 1 hr
   
-  Splash Screen: 2 hr
+  Comp Numbers: 2 hrs 
 
 Estimated Completion Date: Dec 2
