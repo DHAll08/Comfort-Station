@@ -1,6 +1,10 @@
 Improvements on testing:
-  We tried our best to break the application, but were unsuccessful. Throughout this iteration, it broke
-  plenty of time, but upon completion it worked perfectly, no matter what we did.
+  We tried our best to break the application, but were unsuccessful. However, we had a few buttons that are for future iterations
+  and upon selecting a couple of them, it wouldn't necessarily "break"/crash our application, but it did not contribute
+  professionally to our "look and feel" for when it went to the next building selection page. We replaced going to the next 
+  page, with a pop up message saying that the button would be implemented in the future. Therefore, while we weren't able to 
+  break anything, our more in depth testing, with the motivation to break the application, made us realize some extra changes 
+  that have made a huge difference in the presentation of our application.
 
 Testing User Stories:
 [X] On the final amenity listing page, a Home button is available which takes the user back to the first page.
