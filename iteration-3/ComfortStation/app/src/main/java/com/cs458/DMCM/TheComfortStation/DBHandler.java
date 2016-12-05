@@ -12,7 +12,7 @@ import java.util.List;
 /*
 Created by Cameron Shively
 Date: 11-14-2016
-Updated throughtout project by Dwight Hall, Matthew Morrison, Cameron Shively, and Mike Tjoelker
+Updated Dwight Hall, Matthew Morrison, Cameron Shively, and Mike Tjoelker
 Last Updated: 12-3-16
 
 Purpose: Creates database structure and methods and functions for interacting with database
