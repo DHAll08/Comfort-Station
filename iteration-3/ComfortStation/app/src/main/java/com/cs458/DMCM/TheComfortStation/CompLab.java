@@ -4,6 +4,11 @@ package com.cs458.DMCM.TheComfortStation;
  *  Created by Mike on 11/16/2016.
  */
 
+/*
+	About: CompLab stored a unique ID, the number of computers, and the room ID associated with the room it is in
+	For: Acessing CompLab info in the SQLite database
+*/
+
 public class CompLab
 {
 	private int comp_id;
@@ -22,7 +27,9 @@ public class CompLab
 		this.room_id=room_id;
 	}
 
-	/* Set */
+	/* 
+		Set Methods
+	*/
 	
 	public void setID(int id) 
 	{
@@ -40,7 +47,9 @@ public class CompLab
 	}
 
 
-	/* Get */
+	/* 
+		Get Functions
+	*/
 	
 	public int getID()
 	{
