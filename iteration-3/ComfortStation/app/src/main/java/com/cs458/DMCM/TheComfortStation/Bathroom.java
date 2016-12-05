@@ -4,6 +4,11 @@ package com.cs458.DMCM.TheComfortStation;
  *  Created by Mike on 11/16/2016.
  */
 
+/*
+	About: Bathrooms have an ID, gender, and if there is handicap access, a single room, change table, lockers, showers
+	For: Accessing bathroom info from SQLite database
+*/
+
 public class Bathroom
 {
 	private int bath_id;
@@ -34,7 +39,7 @@ public class Bathroom
 		this.bath_room_id=bath_room_id;
 	}
 
-	/* Set */
+	/* Set methods */
 	
 	public void setID(int id) 
 	{
@@ -79,7 +84,7 @@ public class Bathroom
 	}
 
 
-	/* Get */
+	/* Get functions */
 	
 	public int getID()
 	{
