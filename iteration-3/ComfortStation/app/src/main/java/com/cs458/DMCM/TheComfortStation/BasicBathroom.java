@@ -4,6 +4,12 @@ package com.cs458.DMCM.TheComfortStation;
  * Created by Michael on 11/27/2016.
  */
 
+/*
+     About: BasicBathroom contains a Bathroom's gender and floor number only
+     For: For accessing specific info from the SQLite database about bathrooms, to show in the ListView module
+          of the AmenityList 
+*/
+
 public class BasicBathroom
 {
     private String bath_gend; // M(ale), F(emale), or A(ll)
@@ -15,6 +21,11 @@ public class BasicBathroom
         this.floor_num = number;
         this.bath_gend = gender;
     }
+    
+    /* 
+        Set methods 
+    */
+    
     //set floor number
     public void setFloorNum(String floor_num)
     {
@@ -26,6 +37,11 @@ public class BasicBathroom
     {
         this.floor_num = gender;
     }
+    
+    
+    /* 
+        Get functions 
+    */
 
     //get bathroom gender
     public String getGender()
