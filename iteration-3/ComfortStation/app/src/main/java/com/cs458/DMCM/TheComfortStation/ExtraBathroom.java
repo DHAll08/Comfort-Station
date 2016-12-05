@@ -4,6 +4,13 @@ package com.cs458.DMCM.TheComfortStation;
  * Created by Michael on 11/27/2016.
  */
 
+/*
+     About: ExtraBathroom contains a Bathroom's handicap access, whether or not it's a single room, has change tables,
+            has lockers, and has showers
+     For: For accessing specific info from the SQLite database about bathrooms, to show in a Toast (popup) module open selection
+          of a Bathroom in the ListView module of the AmenityList activity page.
+*/
+
 public class ExtraBathroom
 {
     private String bath_handi_access;
@@ -21,6 +28,10 @@ public class ExtraBathroom
         this.bath_lockers = lockers;
         this.bath_showers = showers;
     }
+    
+    /* 
+        Set methods
+    */
 
     public void setHandi(String handi)
     {
@@ -46,6 +57,11 @@ public class ExtraBathroom
     {
         this.bath_showers = showers;
     }
+    
+    
+    /* 
+        Get functions
+    */
 
     public String getHandi()
     {
