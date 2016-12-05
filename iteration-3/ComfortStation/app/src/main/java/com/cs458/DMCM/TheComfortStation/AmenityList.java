@@ -3,6 +3,7 @@ Created by: Dwight Hall
 Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
 
 Purpose: Creates a page that displays the chosen amenitys in selected building. 
+12-3-2016
 */
 
 package com.cs458.DMCM.TheComfortStation;
