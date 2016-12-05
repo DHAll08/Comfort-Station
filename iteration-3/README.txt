@@ -4,10 +4,11 @@ Iteration-3 ReadMe:
 * About *
 *********
 For the third iteration, the major focus was on the "look and feel" of the application,
-and making sure that it is user friendly. Our client wanted a "home" button on the final
-page, that would allow the user to go back to the beginning without pressing the back
-button multiple times. She also wanted a catchy launch icon, logo, and name for the application.
-Finally, she wanted a splash page upon opening the application.
+and making sure that it was user friendly. Our client wanted a "home" button on the final
+page, that would allow her to go back to the beginning without pressing the back
+button multiple times. She also wanted a catchy launch icon and logo, as well as a decent name 
+for the application. Finally, she wanted details on the computer labs (number of computers) 
+to show upon selecting a computer lab from the AmenityList Activity page.
 
 This iteration was completed on 12/2/16.
 
