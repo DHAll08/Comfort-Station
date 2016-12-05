@@ -1,9 +1,9 @@
 /* 
 Created by: Dwight Hall
 Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
+Last Updated: 12-3-16
 
-Purpose: Creates a page that displays the chosen amenitys in selected building. 
-12-3-2016
+Purpose: Creates a page that displays the chosen amenitys in selected building.
 */
 
 package com.cs458.DMCM.TheComfortStation;
