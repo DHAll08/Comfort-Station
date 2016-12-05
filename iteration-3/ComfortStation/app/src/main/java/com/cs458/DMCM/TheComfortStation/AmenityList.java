@@ -1,3 +1,10 @@
+/* 
+Created by: Dwight Hall
+Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
+
+Purpose: Creates a page that displays the chosen amenitys in selected building. 
+*/
+
 package com.cs458.DMCM.TheComfortStation;
 
 import android.content.Intent;
