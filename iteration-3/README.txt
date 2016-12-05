@@ -17,22 +17,22 @@ This iteration was completed on 12/2/16.
 ****************************************
 Folder: 
 	Name - bathroomAppIteration3
-	Location - DMCM/iteration-3/bathroomAppIteration3
+	Location - DMCM/iteration-3/ComfortStation
 Java Code:
-	Location - DMCM/iteration-3/bathroomApppIteration3/app/src/main/java/com/example/dwight/bathroomappv2/...
+	Location - DMCM/iteration-3/ComfortStation/app/src/main/java/com/cs458/DMCM/TheComfortStation/...
 	Files - 
-    AmenityList.java - lists rooms and info about them (third page)
-    BasicBathroom.java - class for retrieving specific data from sqlite database
-    Bathroom.java - class for creating Bathroom objects for sqlite database
-    Building.java - class for creating Building objects for sqlite database
+    		AmenityList.java - lists rooms and info about them (third page)
+    		BasicBathroom.java - class for retrieving specific data from sqlite database
+    		Bathroom.java - class for creating Bathroom objects for sqlite database
+    		Building.java - class for creating Building objects for sqlite database
 		BuildingSelection.java - building selection activity (second page)
-    CompBasic.java - class for retrieving specific data from sqlite database
-    CompLab.java - class for creating Computer Lab objects for sqlite database
-    DBHandler.java - creates database
-    ExtraBathroom.java - class for retrieving specific data from sqlite database
-    Floor.java - class for creating Floor objects for sqlite database
+    		CompBasic.java - class for retrieving specific data from sqlite database
+    		CompLab.java - class for creating Computer Lab objects for sqlite database
+    		DBHandler.java - creates database
+   		ExtraBathroom.java - class for retrieving specific data from sqlite database
+    		Floor.java - class for creating Floor objects for sqlite database
 		MainMenu.java - main menu activity (first page)
-    Room.java - class for creating Room objects in for sqlite database
+    		Room.java - class for creating Room objects in for sqlite database
 
 ***************************
 * Running the Application *
