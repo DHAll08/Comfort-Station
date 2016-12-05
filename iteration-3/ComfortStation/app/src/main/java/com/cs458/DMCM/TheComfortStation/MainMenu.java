@@ -4,6 +4,7 @@ Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
 Last Updated: 12-3-16
 
 Purpose: Creates a page that displays anumber of buttons for the user to slect from for there chosen amenity.
+Also Inserts all data into the database.
 */
 
 package com.cs458.DMCM.TheComfortStation;
