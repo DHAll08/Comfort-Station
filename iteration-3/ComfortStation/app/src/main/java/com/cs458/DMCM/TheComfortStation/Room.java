@@ -17,6 +17,11 @@ public class Room
 		
 	}
 	
+	/*
+		Room has an ID, room number, room type (bathroom or complab), whether or not it
+			has a charging station, and the floor ID of the specific floor it is on.
+	*/
+	
 	public Room(int id, String num, String type, String has_charge, int floor_id)
 	{
 		this.room_id=id;
@@ -27,7 +32,14 @@ public class Room
 		
 	}
 
-	/* Set */
+	/* 
+		Set methods:
+			 setID - for setting the ID 
+			 setNum - for setting room number
+			 setType - for setting type (bathroom or complab)
+			 setHasCharge - for setting if it has a charging station
+			 setFloorID - for setting floor ID that it is connected to
+	*/
 	
 	public void setID(int id) 
 	{
@@ -55,7 +67,14 @@ public class Room
 	}
 
 
-	/* Get */
+	/* 
+		Get methods:
+			 getID - for getting the ID 
+			 getNum - for getting room number
+			 getType - for getting type (bathroom or complab)
+			 getHasCharge - for getting if it has a charging station
+			 getFloorID - for getting floor ID that it is connected to
+	*/
 	
 	public int getID()
 	{
