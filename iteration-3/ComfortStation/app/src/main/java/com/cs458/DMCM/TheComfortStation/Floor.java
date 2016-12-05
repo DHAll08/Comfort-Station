@@ -5,6 +5,11 @@ package com.cs458.DMCM.TheComfortStation;
  *  Updated by Mike on 11/16/2016.
  */
 
+/*
+    About: Floor has an unique ID, a floor number, and the building ID of the building it is within
+    For:  For accessing Floor information from the SQLite database
+*/
+
 public class Floor
 {
     private int floor_id;
@@ -23,6 +28,11 @@ public class Floor
         this.floor_num = floor_num;
         this.build_id = build_id;
     }
+    
+    /*
+        Set methods
+        - for setting information on Floor
+    */
 
     //set floor id
     public void setFloorId(int floor_id)
@@ -41,6 +51,12 @@ public class Floor
     {
         this.build_id = build_id;
     }
+    
+    
+    /* 
+        Get functions 
+        - for returning information about Floors
+    */
 
     //get floor id
     public int getFloorId()
