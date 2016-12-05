@@ -70,7 +70,7 @@ public class Room
 
 
 	/* 
-		Get methods:
+		Get functions:
 			 getID - for getting the ID 
 			 getNum - for getting room number
 			 getType - for getting type (bathroom or complab)
