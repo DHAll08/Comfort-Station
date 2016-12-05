@@ -4,6 +4,13 @@ package com.cs458.DMCM.TheComfortStation;
  *  Created by Mike on 11/16/2016.
  */
 
+/*
+	About:  Room has an ID, room number, room type (bathroom or complab), whether or not it
+		has a charging station, and the floor ID of the specific floor it is on.
+		
+	For:  For use in accessing Room information from the SQLite databse
+*/
+
 public class Room
 {
 	private int room_id;
@@ -16,11 +23,6 @@ public class Room
 	{
 		
 	}
-	
-	/*
-		Room has an ID, room number, room type (bathroom or complab), whether or not it
-			has a charging station, and the floor ID of the specific floor it is on.
-	*/
 	
 	public Room(int id, String num, String type, String has_charge, int floor_id)
 	{
