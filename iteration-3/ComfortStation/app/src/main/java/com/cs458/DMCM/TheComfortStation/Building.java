@@ -1,8 +1,13 @@
 package com.cs458.DMCM.TheComfortStation;
 
 /**
- *  Created by     
+ *  Created by Cameron on 11/15/2016   
  */
+
+/*
+	About: Building's have a unique ID and a name
+	For: For acessing Building info from the SQLite database
+*/
 
 public class Building 
 {
@@ -20,6 +25,8 @@ public class Building
 		this.build_name=name;
 	}
 	
+	/* Set methods */
+	
 	public void setID(int id) 
 	{
 		this.build_id = id;
@@ -29,6 +36,8 @@ public class Building
 	{
 		this.build_name = name;
 	}
+	
+	/* Get functions */
 	
 	public int getID()
 	{
