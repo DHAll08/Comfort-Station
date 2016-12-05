@@ -1,3 +1,11 @@
+/* 
+Created by: Dwight Hall
+Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
+Last Updated: 12-3-16
+
+Purpose: Creates a page that displays anumber of buttons for the user to slect from for there chosen amenity.
+*/
+
 package com.cs458.DMCM.TheComfortStation;
 
 import android.content.Intent;
