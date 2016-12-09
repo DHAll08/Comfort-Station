@@ -128,7 +128,7 @@ public class DBHandler extends SQLiteOpenHelper
         ***************
     */
 
-    //add a new building
+    //add a new building to the database
     public void addBuilding(Building building)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -143,7 +143,7 @@ public class DBHandler extends SQLiteOpenHelper
         db.close();
     }
 
-    //get all buildings
+    //get all buildings in the database
     public List<Building> getAllBuildings()
     {
         List<Building> buildingList = new ArrayList<Building>();
@@ -170,7 +170,7 @@ public class DBHandler extends SQLiteOpenHelper
     }
 
 
-    //get all buildings
+    //get all buildings with computer labs
     public List<Building> getAllCompLabBuildings()
     {
         List<Building> buildingList = new ArrayList<Building>();
@@ -231,7 +231,7 @@ public class DBHandler extends SQLiteOpenHelper
             FLOORS
         ***************
     */
-    //add a new floor
+    //add a new floor to the database
     public void addFloor(Floor floor)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -247,7 +247,7 @@ public class DBHandler extends SQLiteOpenHelper
         db.close();
     }
 
-    //get all floors
+    //get all floors in the database
     public List<Floor> getAllFloors()
     {
         List<Floor> floorList = new ArrayList<>();
@@ -273,7 +273,7 @@ public class DBHandler extends SQLiteOpenHelper
     }
 
 
-    //get floor
+    //get a single floor in the database
     public Floor getFloor(int id)
     {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -301,7 +301,7 @@ public class DBHandler extends SQLiteOpenHelper
             ROOMS
        ***************
    */
-    //add a new room
+    //add a new room to the database
     public void addRoom(Room room)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -319,7 +319,7 @@ public class DBHandler extends SQLiteOpenHelper
         db.close();
     }
 
-    //get all rooms
+    //get all rooms in the database
     public List<Room> getAllRooms()
     {
         List<Room> roomList = new ArrayList<>();
@@ -347,7 +347,7 @@ public class DBHandler extends SQLiteOpenHelper
     }
 
 
-    //get room
+    //get a single room in the database
     public Room getRoom(int id)
     {
         SQLiteDatabase db = this.getReadableDatabase();
@@ -372,7 +372,7 @@ public class DBHandler extends SQLiteOpenHelper
         BATHROOMS
      ***************
     */
-    //add a new bathroom
+    //add a new bathroom to the database
     public void addBathroom(Bathroom room)
     {
         SQLiteDatabase db = this.getWritableDatabase();
@@ -443,7 +443,7 @@ public class DBHandler extends SQLiteOpenHelper
     }
 
 
-    //get the count
+    //get a building count
     public int getBathroomCount(String build_name)
     {
         String countQuery = "SELECT DISTINCT * FROM " + TABLE_BATHROOMS + "," + TABLE_ROOMS  + "," + TABLE_FLOORS + "," + TABLE_BUILDINGS +
