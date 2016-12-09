@@ -1,6 +1,6 @@
 /* 
 Created by: Dwight Hall
-Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
+Updated By: Mike Tjoelker, Cameron Shively, Matt Morrision
 Last Updated: 12-3-16
 Purpose: Creates a page that displays a drop down of buildings for the user to select.
 */
