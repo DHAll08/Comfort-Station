@@ -241,7 +241,7 @@ public class MainMenu extends AppCompatActivity {
 
         //adding room tables
 
-        //Founders Hall
+        //Founders Hall 
         db.addRoom(new Room(3111,"4","B","0",2111));
         db.addRoom(new Room(3112,"26A","B","0",2111));
         db.addRoom(new Room(3113,"113A","B","0",2112));
