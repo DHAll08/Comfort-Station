@@ -21,8 +21,10 @@ import com.example.dwight.bathroomappv2.R;
 
 import java.util.List;
 
-
-// Class That Builds a Main Menu for locating amenities on HSU.
+/*
+	Class That Builds a Main Menu for locating amenities on HSU.
+	Also populates database.
+*/
 public class MainMenu extends AppCompatActivity {
 
     // Declares The Main Menu buttons
@@ -32,10 +34,9 @@ public class MainMenu extends AppCompatActivity {
     public Button chargingStationButton;
     public Button wifiButton;
 
-
-
-
-    // Main Function.
+/*
+	Called upon starting the page
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,10 +48,12 @@ public class MainMenu extends AppCompatActivity {
         onFoodClick();
         onWifiClick();
 		
-		//create db
-		DBHandler db = createDB();
+	//create db
+	DBHandler db = createDB();
 
-        //testing get all buidldings
+        /*
+		TESTING for getAllBuildings
+	*/
         Log.d("Reading: ", "Reading all buildings..");
         List<Building> buildings = db.getAllBuildings();
 
@@ -60,7 +63,9 @@ public class MainMenu extends AppCompatActivity {
             Log.d("Building:: ", log);
         }
 
-        //testing floor table
+        /*
+		TESTING for getAllFloors
+	*/
         Log.d("Reading: ", "Reading all floors..");
         List<Floor> floors = db.getAllFloors();
 
@@ -72,7 +77,9 @@ public class MainMenu extends AppCompatActivity {
 
     }
 
-    // Method for the Bathroom Button, when clicked will take user to new page of buildings that have bathrooms.
+    /*
+    	Method for the Bathroom Button, when clicked will take user to new page of buildings that have bathrooms.
+    */
     public void onBathroomClick() {
         bathroomButton = (Button) findViewById(R.id.bathroomButton);
         bathroomButton.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +92,9 @@ public class MainMenu extends AppCompatActivity {
         });
     }
 
-    // Method for the computer Lab Button, when clicked will take user to new page of buildings that have Computer Labs.
+    /*
+    	Method for the computer Lab Button, when clicked will take user to new page of buildings that have Computer Labs.
+    */
     public void onCompLabClick() {
         computerLabButton = (Button) findViewById(R.id.computerLabButton);
         computerLabButton.setOnClickListener(new View.OnClickListener() {
@@ -98,11 +107,15 @@ public class MainMenu extends AppCompatActivity {
         });
     }
 
-
+    /*
+    	Method for the Food Button, 
+	When clicked will create popup saying "Future Feature!"
+    */
     public void onFoodClick()
     {
         foodButton = (Button) findViewById(R.id.foodButton);
-        foodButton.setOnClickListener(new View.OnClickListener() {
+        foodButton.setOnClickListener(new View.OnClickListener() 
+	{
             @Override
             public void onClick(View v) {
                 /*
@@ -115,6 +128,10 @@ public class MainMenu extends AppCompatActivity {
         });
     }
 
+    /*
+    	Method for the Charging Station Button, 
+	When clicked will create popup saying "Future Feature!"
+    */
     public void onChargingStationClick() {
         chargingStationButton = (Button) findViewById(R.id.chargingButton);
         chargingStationButton.setOnClickListener(new View.OnClickListener() {
@@ -147,15 +164,12 @@ public class MainMenu extends AppCompatActivity {
 
 
 
-
-
-
     /*
         Created to build and insert in to database
      */
     public DBHandler createDB()
     {
-        //call the database
+        //create db
         DBHandler db = new DBHandler(this);
 
         //adding building rows
