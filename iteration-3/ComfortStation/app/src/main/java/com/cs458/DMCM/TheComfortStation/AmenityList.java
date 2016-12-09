@@ -26,7 +26,7 @@ public class AmenityList extends AppCompatActivity {
     public ImageButton homeButton;
     DBHandler db = new DBHandler(this);
 
-
+// Constructor for AmenityList
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -60,7 +60,7 @@ public class AmenityList extends AppCompatActivity {
             }
         });
     }
-
+    // Method for the Computerlab Button, when clicked will take user to new page of buildings that have computerlabs.
     public void compSelected() {
         String chosenBuilding = getIntent().getStringExtra("buildingSelected");
         String[] itemList = db.getCompBasics(chosenBuilding);
@@ -99,7 +99,7 @@ public class AmenityList extends AppCompatActivity {
         });
 
     }
-
+    // creates a listview of the slected amenity, shown to the user in decending order.
     public void bathSelected()
     {
         //Step 1:
