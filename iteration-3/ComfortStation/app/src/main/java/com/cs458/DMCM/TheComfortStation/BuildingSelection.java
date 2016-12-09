@@ -1,6 +1,6 @@
 /* 
 Created by: Dwight Hall
-Updated By: Mike Tjoelker, Cameron Shively, Matt Morrision
+Updated By: Mike Tjoelker, Cameron Shivley, Matt Morrision
 Last Updated: 12-3-16
 Purpose: Creates a page that displays a drop down of buildings for the user to select.
 */
@@ -27,8 +27,9 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import java.util.ArrayList;
 import java.util.List;
 
-
-// Class that creates a page of buildings which all have the amenity chosen From the Main Menu.
+/*
+  BuildingSelection creates a page of buildings which all have the amenity chosen From the Main Menu.
+*/
 public class BuildingSelection extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     // Declares the Objects used on the page.
     public Spinner buildingDropDown;
@@ -66,7 +67,9 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
-    // Dynamically adds the buildings with chosen amenity into the Building Drop Down.
+    /*
+        Dynamically adds the buildings with chosen amenity into the Building Drop Down.
+    */
     public void addItemsToBuildingDropDown() {
         buildingDropDown = (Spinner) findViewById(R.id.buildingDropDown);
         ArrayAdapter<String> adapter;
@@ -123,11 +126,22 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
         buildingDropDown.setOnItemSelectedListener(this);
     }
 
-    public void onSubmitClick() {
+    /*
+        This is called upon the submit button being created 
+    */
+    public void onSubmitClick() 
+    {
         submitButton = (Button) findViewById(R.id.submitButton);
-        submitButton.setOnClickListener(new View.OnClickListener() {
+        //set listener to wait for submit button to be clicked
+        submitButton.setOnClickListener(new View.OnClickListener() 
+        {
+            /*
+                When clicked, go to next page
+                Pass over buildingSelected to next page
+            */
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) 
+            {
                 Intent submitPressed = new Intent(BuildingSelection.this, AmenityList.class);
                 submitPressed.putExtra("buildingSelected",text);
                 startActivity(submitPressed);
@@ -136,13 +150,10 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
     }
 
     /*
-
-     ***********************
+     *********************************************************
         Iteration 3 Extra
-        - select building
-          from map
-     ***********************
-
+        - select building from map using transparent buttons
+     *********************************************************
     */
     public void onBSSClick()
     {
@@ -168,32 +179,27 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
             }
         });
     }
-
     /*
-
      ***********************
       END Iteration 3 Extra
      ***********************
-
     */
 
-
+/*
+    Depending on building selected from dropdown, 
+    Point to and show its text in the main dropdown box field.
+*/
     @Override
-        public void onItemSelected (AdapterView < ? > parent, View view,int position, long id){
-            //text = parent.getItemAtPosition(position).toString();
-
+        public void onItemSelected (AdapterView < ? > parent, View view,int position, long id)
+        {
             TextView selectedText = (TextView) view;
-            //Toast.makeText(this, "You Selected " + selectedText.getText(), Toast.LENGTH_SHORT).show();
             text = selectedText.getText().toString();
-            //textview = (TextView) findViewById(R.id.textview);
-            // textview.setText(text);
         }
 
         @Override
-        public void onNothingSelected (AdapterView < ? > parent){
-
+        public void onNothingSelected (AdapterView < ? > parent)
+        {
         }
-
 
     /**
      * ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -211,6 +217,9 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
                 .build();
     }
 
+    /*
+          Auto-created for starting/stopping page  
+    */
     @Override
     public void onStart() {
         super.onStart();
@@ -220,7 +229,6 @@ public class BuildingSelection extends AppCompatActivity implements AdapterView.
         client.connect();
         AppIndex.AppIndexApi.start(client, getIndexApiAction());
     }
-
     @Override
     public void onStop() {
         super.onStop();
